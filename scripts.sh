@@ -1,7 +1,7 @@
 # Add these to your ~/.bash_aliases
 
-set AOC="~/Desktop/advent-of-code" # remember to change this to whatever your AOC directory is
-set AOC_COOKIE="..." # get this from the cookies tab in network tools on the AOC website
+AOC="~/advent-of-code" # remember to change this to whatever your AOC directory is
+AOC_COOKIE="" # get this from the cookies tab in network tools on the AOC website
 
 alias aos="cd $AOC; python3 solution.py < in.txt"
 alias aot="cd $AOC; echo -ne '\\e[0;34m'; python3 solution.py < test.txt; echo -ne '\\e[0m'"
