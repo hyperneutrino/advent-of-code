@@ -1,0 +1,1 @@
+print((lambda r:sum(int(k)for k in r if len(k)%2<1and k==k[:len(k)//2]*2))(sum(([*map(str,range(a,b+1))]for a,b in[[*map(int,item.split("-"))]for item in input().split(",")]),[])))

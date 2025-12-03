@@ -1,0 +1,1 @@
+print((lambda r:sum(int(k)for k in r if any(len(k)%i<1and k==i*k[:len(k)//i]for i in range(2,len(k)+1))))(sum(([*map(str,range(a,b+1))]for a,b in[[*map(int,item.split("-"))]for item in input().split(",")]),[])))
