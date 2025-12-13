@@ -1,0 +1,1 @@
+# congratulations on reaching the end of AoC 2025!
